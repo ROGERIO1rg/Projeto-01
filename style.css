@@ -64,9 +64,9 @@
     right: 0;
   }
   
-  @media (min-width: 592px) {
+  @media (min-width: 300px) {
      #hero {
-       max-width: 1000px;
+       max-width: 592px;
   }
 }
   
