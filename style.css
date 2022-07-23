@@ -68,5 +68,10 @@
      #hero {
        max-width: 592px;
   }
+
+  #balls {
+    max-width: 360px;
+    display: none;
+  }
 }
   
