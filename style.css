@@ -66,6 +66,10 @@
   
   @media (max-width: 480px) { 
 
+    #hero{
+      width: 32.3rem;
+    }
+
     #balls {
       visibility: hidden;
     }
