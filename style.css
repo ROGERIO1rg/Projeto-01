@@ -15,13 +15,13 @@
   }
   
   #hero {
-    max-width: 33.0rem;
-    margin: auto;
+    max-width: 56.8rem;
+    margin: 0 auto 7.2rem;
   }
   
   #hero img {
     margin-bottom: 7.2rem; 
-    margin: 0 auto 7.2rem;
+    /* margin: 0 auto 7.2rem; */
   }
   
   h1 {
@@ -47,7 +47,7 @@
   }
   
   .line {
-    width: 32.0rem;
+    width: 42rem;
     height: 0;
     margin: 0 auto .8rem;
     border: .1rem solid #ECEFF2;
@@ -64,14 +64,17 @@
     right: 0;
   }
   
-  @media (min-width: 365px) {
-     #hero {
-       max-width: 700px;
-  }
+  @media (max-width: 480px) { 
 
-}
+    #balls {
+      visibility: hidden;
+    }
   
- @media (max-width: 459px) {
-  #balls {
-    visibility: hidden;
-  } } 
+    .line {
+      width: 30rem;
+    }
+  
+    #footer {
+      margin-bottom: 6rem;
+    }
+  }
